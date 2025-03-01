@@ -1,0 +1,35 @@
+{
+    "name": "hexlet/code",
+    "description": "Third project hexlet-php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artyom Osepyan",
+            "email": "art@osepyan.ru"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "symfony/var-dumper": "^7.2"
+    },
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "slim/http": "^1.4",
+        "slim/php-view": "^3.4",
+        "php-di/php-di": "^7.0",
+        "slim/flash": "^0.4.0",
+        "vlucas/valitron": "^1.4",
+        "nesbot/carbon": "^3.8",
+        "vlucas/phpdotenv": "^5.6",
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/support": "^11.41",
+        "imangazaliev/didom": "^2.0"
+    }
+}
